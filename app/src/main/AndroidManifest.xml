@@ -23,7 +23,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDk-LWA_qM0yIQbKDzkAN4we-vzBdJBApE" />
+            android:value="" />
 
         <activity
             android:name=".easedroppartner.activity.All_india_map_track_Activity"
