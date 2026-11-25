@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EaseDropPartner"
+        android:usesCleartextTraffic="true"
+        tools:ignore="DiscouragedApi"
+        tools:targetApi="31" >
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDk-LWA_qM0yIQbKDzkAN4we-vzBdJBApE" />
+
+        <activity
+            android:name=".easedroppartner.activity.All_india_map_track_Activity"
+            android:exported="false" />
+
+        <activity
+            android:name=".easedroppartner.activity.All_India_Home_Activity"
+            android:exported="false" />
+
+        <!-- job type activity -->
+        <activity
+            android:name=".easedroppartner.activity.Job_Type_Activity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <!-- All india map track activity -->
+        <activity
+            android:name=".easedroppartner.activity.All_India_Delivery_Sign_In_Activity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <!-- instant map include activity -->
+        <activity
+            android:name=".easedroppartner.activity.IncludeActivity"
+            android:exported="false" />
+
+        <!-- instant home activity -->
+        <activity
+            android:name=".easedroppartner.activity.HomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+
+        <!-- instant map activity -->
+        <activity
+            android:name=".easedroppartner.activity.Map_track_Activity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name=".easedroppartner.activity.MapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_map"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+
+        <!-- instant sign in activity -->
+        <activity
+            android:name=".easedroppartner.activity.Sign_in_Activity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="LockedOrientationActivity" />
+
+        <!-- splash activity -->
+        <activity
+            android:name=".easedroppartner.activity.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

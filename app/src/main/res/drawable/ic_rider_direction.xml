@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Compact rider heading marker. Its tip points north; Maps rotates it to GPS bearing. -->
+    <path android:fillColor="#260B1424"
+        android:pathData="M24,3 A21,21 0,1 0,24 45 A21,21 0,1 0,24 3 Z" />
+    <path android:fillColor="#14213D"
+        android:pathData="M24,1.5 A21.5,21.5 0,1 0,24 44.5 A21.5,21.5 0,1 0,24 1.5 Z" />
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M24,5 A17.5,17.5 0,1 0,24 40 A17.5,17.5 0,1 0,24 5 Z" />
+    <path android:fillColor="#2375E1"
+        android:pathData="M24,8 L35.5,34.5 L24,28.5 L12.5,34.5 Z" />
+    <path android:fillColor="#1552B5"
+        android:pathData="M24,8 L24,28.5 L12.5,34.5 Z" />
+    <path android:fillColor="#DCEBFF"
+        android:pathData="M24,28.5 L35.5,34.5 L24,32 Z" />
+</vector>

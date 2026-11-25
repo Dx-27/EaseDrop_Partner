@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EaseDrop Partner</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="easedrop">EaseDrop Partner</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_deliver">Delivered</string>
+    <string name="menu_profile">Profile</string>
+
+        <!-- Profile Fragment -->
+        <string name="tv_acc">खाता</string>
+        <string name="contact_us">हमसे संपर्क करें</string>
+        <string name="tv_contact_us">किसी भी प्रश्न और समस्या के लिए हमसे जुड़ें</string>
+        <string name="terms_condition">नियम और शर्तें</string>
+        <string name="tv_terms_condition">हमारे नियम और शर्तें जानें</string>
+        <string name="language">भाषा</string>
+        <string name="logout">लॉगआउट</string>
+        <string name="tv_logout">वर्तमान खाता से बाहर निकलें</string>
+
+    <!-- Delivered Fragment -->
+    <string name="name_tv">सोलंकी हेतेशी आनंदभाई</string>
+    <string name="tv_address">ए/302 गार्डन व्यू एपार्टमेंट, निकट लैक गार्डन, कटारगाम, सूरत</string>
+    <string name="tv_phone">०९८७६५४३२१</string>
+    <string name="tv_total">कुल</string>
+    <string name="tv_price">१००००</string>
+    <string name="tv_payment_type">कैश ऑन डिलीवरी</string>
+
+    <!-- SignIn Activity-->
+    <string name="logintext">साइन इन करें</string>
+    <string name="email">ईमेल आईडी दर्ज करें</string>
+    <string name="password">पासवर्ड</string>
+    <string name="btn_login">लॉगिन</string>
+
+
+
+</resources>

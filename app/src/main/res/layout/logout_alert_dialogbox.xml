@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:gravity="center"
+                android:text="Logout"
+                android:textColor="#EF5B5B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="15dp"
+                android:background="#9EA1A1A1" />
+
+            <TextView
+
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginEnd="15dp"
+                android:text="Are you Sure You Want To Logout?"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="165dp"
+                android:layout_marginEnd="15dp"
+                android:background="#9EA1A1A1" />
+
+            <!--            <Button-->
+
+            <!--                android:id="@+id/btn_cancel"-->
+            <!--                android:layout_width="79dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginStart="6dp"-->
+            <!--                android:layout_marginTop="295dp"-->
+            <!--                android:backgroundTint="@color/white"-->
+            <!--                android:text="Cancel"-->
+            <!--                android:textColor="#EF5B5B"-->
+            <!--                android:textSize="15sp" />-->
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:orientation="horizontal">
+
+                <Button
+
+
+                    android:id="@+id/btn_no"
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:backgroundTint="@color/white"
+                    android:text="No"
+                    android:textColor="#EF5B5B"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+
+                    android:layout_width="2dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="#9EA1A1A1" />
+
+                <Button
+
+                    android:id="@+id/btn_yes"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:text="Yes"
+                    android:textColor="#EF5B5B"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

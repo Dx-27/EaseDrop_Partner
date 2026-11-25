@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">EaseDrop Partner</string>
+    <string name="title_activity_map">નકશા પ્રવૃત્તિ</string>
+    <string name="easedrop">EaseDrop Partner</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_deliver">Delivered</string>
+    <string name="menu_profile">Profile</string>
+
+    <!-- Profile Fragment -->
+    <string name="tv_acc">એકાઉન્ટ</string>
+    <string name="contact_us">અમારસથે સંપર્ક કરો</string>
+    <string name="tv_contact_us">કોઈપણ પ્રશ્ન અને સમસ્યા માટે અમારસથે જોડાઓ</string>
+    <string name="terms_condition">શરતો અને નિયમો</string>
+    <string name="tv_terms_condition">અમારા શરતો અને નિયમો જાણો</string>
+    <string name="language">ભાષા</string>
+    <string name="logout">લૉગઆઉટ</string>
+    <string name="tv_logout">વર્તમાન એકાઉન્ટથી બહાર નિકળો</string>
+
+    <!-- Delivered Fragment -->
+    <string name="name_tv">સોલંકી હેતેશી આનંદભાઈ</string>
+    <string name="tv_address">એ/302 ગાર્ડન વ્યૂ એપાર્ટમેન્ટ, નજીક લેક ગાર્ડન, કટારગામ, સુરત</string>
+    <string name="tv_phone">૦૯૮૭૬૫૪૩૨૧</string>
+    <string name="tv_total">કુલ</string>
+    <string name="tv_price">૧૦૦૦૦</string>
+    <string name="tv_payment_type">કેશ ઓન ડિલિવરી</string>
+
+    <!-- SignIn Activity-->
+    <string name="logintext">સાઇન ઇન કરો</string>
+    <string name="email">ઇમેઇલ આઈડી દાખલ કરો</string>
+    <string name="password">પાસવર્ડ</string>
+    <string name="btn_login">લોગઇન</string>
+
+
+</resources>

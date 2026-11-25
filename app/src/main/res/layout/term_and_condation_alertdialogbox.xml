@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="567dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="562dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:gravity="center"
+                android:text="Terms And Condations"
+                android:textColor="#EF5B5B"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="15dp"
+                android:background="#9EA1A1A1" />
+
+
+            <androidx.core.widget.NestedScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="90dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="@string/zomato_delivery_partner_terms_conditions_summary" />
+
+
+            </androidx.core.widget.NestedScrollView>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="500dp"
+                android:layout_marginEnd="15dp"
+                android:background="#9EA1A1A1" />
+
+            <!--            <Button-->
+
+            <!--                android:id="@+id/btn_cancel"-->
+            <!--                android:layout_width="364dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginStart="6dp"-->
+            <!--                android:layout_marginTop="295dp"-->
+            <!--                android:backgroundTint="@color/white"-->
+            <!--                android:text="Cancel"-->
+            <!--                android:textColor="#EF5B5B"-->
+            <!--                android:textSize="15sp"-->
+            <!--                tools:ignore="HardcodedText" />-->
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="500dp"
+                android:orientation="horizontal"
+                tools:ignore="UselessLeaf">
+
+                <Button
+
+                    android:id="@+id/btn_accept"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Accept"
+                    android:textColor="#EF5B5B"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+
+                <!--                            <LinearLayout-->
+
+                <!--                                android:layout_width="2dp"-->
+                <!--                                android:layout_height="50dp"-->
+                <!--                                android:layout_marginStart="15dp"-->
+                <!--                                android:layout_marginTop="2dp"-->
+                <!--                                android:layout_marginEnd="15dp"-->
+                <!--                                android:background="#9EA1A1A1" />-->
+
+                <!--                            <Button-->
+
+                <!--                                android:id="@+id/btn_okay"-->
+                <!--                                android:layout_width="162dp"-->
+                <!--                                android:layout_height="wrap_content"-->
+                <!--                                android:backgroundTint="@color/white"-->
+                <!--                                android:text="Okay"-->
+                <!--                                android:textColor="#EF5B5B"-->
+                <!--                                android:textSize="15sp"-->
+                <!--                                tools:ignore="HardcodedText" />-->
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

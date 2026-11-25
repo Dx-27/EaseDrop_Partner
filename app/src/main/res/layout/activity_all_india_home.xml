@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".easedroppartner.activity.All_India_Home_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:subtitleTextColor="@color/black"
+                app:title="@string/app_name"
+                app:titleTextColor="#0D0D0E" />
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:layout_weight=".93"
+                tools:ignore="InefficientWeight" />
+
+            <com.ismaeldivita.chipnavigation.ChipNavigationBar
+
+                android:id="@+id/bottom_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:fadingEdge="horizontal"
+                android:background="@drawable/bottom_bg"
+                android:layout_marginBottom="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cnb_badgeColor="@color/white"
+                app:cnb_unselectedColor="#EF5B5B"
+                app:cnb_menuResource="@menu/menu_bottomnav_all_india_home"
+                tools:ignore="ObsoleteLayoutParam" >
+
+            </com.ismaeldivita.chipnavigation.ChipNavigationBar>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
